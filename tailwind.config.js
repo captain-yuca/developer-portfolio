@@ -3,7 +3,9 @@ module.exports = {
   content: ['./components/**/*.tsx', './pages/**/*.tsx'],
   theme: {
     fontFamily: {
-      'sans': '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"'
+      'sans': '-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji"',
+      'karla': ['"Karla"', 'Arial', 'sans-serif'],
+      'playfair': ['"Playfair Display"', 'Georgia', 'serif'],
     },
     extend: {
       colors: {

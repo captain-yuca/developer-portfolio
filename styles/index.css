@@ -2,4 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@import 'additional-styles/utils.css'
+@import "additional-styles/utils.css";
+
+/* Vertical writing mode for rotated label (ported from Noah template) */
+.writing-vertical {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.rotate-heading::after {
+  position: absolute;
+  top: 90px;
+  content: "";
+  background: #337ab7;
+  width: 1px;
+  height: 40px;
+  right: 10px;
+}
